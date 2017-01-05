@@ -55,11 +55,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "FlimeBOT",
+        botName: "basicBot",
         language: "english",
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: false,
+        afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
         lockdownEnabled: false,
@@ -98,7 +98,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: false,
+        songstats: true,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
