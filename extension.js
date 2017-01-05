@@ -98,7 +98,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: false,
+        songstats: true,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
