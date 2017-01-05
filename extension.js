@@ -57,7 +57,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/thimonbongaards/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -101,12 +101,12 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/thimonbongaards/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/thimonbongaards/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/" + fork + "/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/thimonbongaards/basicBot/master/basicBot.js", extend);
 
 }).call(this);
